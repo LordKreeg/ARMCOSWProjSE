@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+  
+   <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>K_CaselessCartaSlugCartridge</SubtypeId>
+      </Id>
+      <DisplayName>Caseless-Slug Carta Cartridge(15)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>1.5</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <Capacity>15</Capacity>
+      <AmmoDefinitionId Subtype="Energy" />
+    </AmmoMagazine>
+  
+  
+  
+    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>K_CaselessSlugCartridge</SubtypeId>
+      </Id>
+      <DisplayName>Caseless-Slug Cartridge(10)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <Capacity>10</Capacity>
+      <AmmoDefinitionId Subtype="Energy" />
+    </AmmoMagazine>
+  
+  
+   <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>K_CaselessMGBox</SubtypeId>
+      </Id>
+      <DisplayName>Caseless Machinegun Box(50)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>10</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <Capacity>50</Capacity>
+      <AmmoDefinitionId Subtype="Energy" />
+    </AmmoMagazine>
+  
+  
+  
+   <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>K_CaselessMDSlug</SubtypeId>
+      </Id>
+      <DisplayName>Caseless Mass-Driver Slug(3)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Size>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </Size>
+      <Mass>30</Mass>
+      <Volume>20</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <Capacity>3</Capacity>
+      <AmmoDefinitionId Subtype="Energy" />
+    </AmmoMagazine>
+  </AmmoMagazines>
+  
+  
+   <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>K_CaselessACBox</SubtypeId>
+      </Id>
+      <DisplayName>Caseless Auto-Cannon Box(40)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <Capacity>40</Capacity>
+      <AmmoDefinitionId Subtype="Energy" />
+    </AmmoMagazine>
+  
+  
+</Definitions>

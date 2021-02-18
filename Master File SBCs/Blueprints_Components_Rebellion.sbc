@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Blueprints>
+   
+   <!--Basic Resources-->
+  
+  
+  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Computer</SubtypeId>
+      </Id>
+      <DisplayName>Computer (Identical)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.02" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+        <Item Amount="0.02" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>false</IsPrimary>
+    </Blueprint>
+  
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_DurasteelRecipe_Normal</SubtypeId>
+      </Id>
+      <DisplayName>Durasteel (Rebellion)</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel_Rebellion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Rebellion_Components_DuraSteel" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_ScrapDurasteelRecipe_Normal</SubtypeId>
+      </Id>
+      <DisplayName>Patchwork Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel_Rebellion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Rebellion_Components_DuraSteelLight" />
+      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_ConstructionRecipe_Normal</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Supplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel_Rebellion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Rebellion_Components_Construction" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_AstromechRecipe_Normal</SubtypeId>
+      </Id>
+      <DisplayName>Astromech</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_TransparentSteel.dds</Icon>
+      <Prerequisites>
+	     <Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+		<Item Amount="0.7" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components__Rebellion_Astromech" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_TranspariSteelRecipe</SubtypeId>
+      </Id>
+      <DisplayName>Salvaged TranspariSteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_TransparentSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Rebellion_Components_TranspariSteel" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_WeaponryRecipe_Normal</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Weaponry Components</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Conversion_Tibanna" />
+		<Item Amount="1.2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Rebellion_Components_Blaster_Mechanism" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_GeneratorPartsRecipe_Normal</SubtypeId>
+      </Id>
+      <DisplayName>Salvaged Generator Parts</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components__Rebellion_GeneratorGear" />
+      <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_PowerCellRecipe_Normal</SubtypeId>
+      </Id>
+      <DisplayName>Homemade Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="1.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components__Rebellion_StandardPowerCell" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <!--Salvage-->
+  
+  
+		 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_DurasteelRecipe_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Durasteel (Rebellion 3x)</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel_Rebellion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      </Prerequisites>
+      <Result Amount="3" TypeId="Component" SubtypeId="K_Rebellion_Components_DuraSteel" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_ScrapDurasteelRecipe_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Patchwork Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel_Rebellion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.5" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Rebellion_Components_DuraSteelLight" />
+      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_ConstructionRecipe_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Supplies</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel_Rebellion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.7" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Rebellion_Components_Construction" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_WeaponryRecipe_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Weaponry Components</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.25" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+	      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Rebellion_Components_Blaster_Mechanism" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_IonRecipe_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Stablized Ionic Particles</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="K_Neutral_RecycledChemicals" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+	      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Ions" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_ProtonRecipe_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Stablized Proton</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Prerequisites>
+        <Item Amount="7" TypeId="Ingot" SubtypeId="K_Neutral_RecycledChemicals" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+	      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Protons" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_PowerCellRecipe_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Homemade Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="K_Neutral_RecycledChemicals" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+		      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components__Rebellion_StandardPowerCell" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_GeneratorPartsRecipe_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Salvaged Generator Parts</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="K_Neutral_RecycledChemicals" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+		<Item Amount="7" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components__Rebellion_GeneratorGear" />
+      <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+		<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_AstromechRecipe_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Astromech</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_TransparentSteel.dds</Icon>
+      <Prerequisites>
+	     <Item Amount="0.3" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="K_Neutral_RecycledChemicals" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components__Rebellion_Astromech" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Computer_Scrap</SubtypeId>
+      </Id>
+      <DisplayName>Computer (Identical)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.02" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+        </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>false</IsPrimary>
+    </Blueprint>
+  
+</Blueprints>
+</Definitions>

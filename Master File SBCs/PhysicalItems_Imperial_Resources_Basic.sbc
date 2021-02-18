@@ -1,0 +1,913 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<PhysicalItems>
+   
+   
+   
+   <PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_DuraSteel</SubtypeId>
+      </Id>
+      <DisplayName>Dooninum Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ore_Doonium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Dm</IconSymbol>
+<MinimalPricePerUnit>5</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Lommite</SubtypeId>
+      </Id>
+      <DisplayName>Lommite Ore</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Lommite.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Lommite_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Lo</IconSymbol>
+	   <MinimalPricePerUnit>3</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Carbonite</SubtypeId>
+		  <!--Storage Alloy, used in storing of goods. Perfect for long-term containment-->
+      </Id>
+      <DisplayName>Raw Carbonite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Carbon.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.7</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Carbonite_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Ct</IconSymbol>
+	  <MinimalPricePerUnit>3</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Hollinium</SubtypeId>
+      </Id>
+      <DisplayName>Raw Hollinium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Hollinium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Hm</IconSymbol>
+	  <MinimalPricePerUnit>315</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Exonium</SubtypeId>
+		  <!--Fossil Mineral, used as in the creation of power supplies, and fuels-->
+		   <!--Low Yield-->    
+      </Id>
+      <DisplayName>Raw Exonium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Exonium.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.9</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Exonium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Ex</IconSymbol>
+	    <MinimalPricePerUnit>500</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Anthracite</SubtypeId>
+		  <!--Fossil Mineral, used as cheap combustion. Lore accurate-->
+		   <!--moderate Yield-->    
+      </Id>
+      <DisplayName>Anthracite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Exonium.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.6</Mass>
+      <Volume>0.9</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Exonium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*AC</IconSymbol>
+	    <MinimalPricePerUnit>15</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Guerrerite</SubtypeId>
+      </Id>
+      <DisplayName>Raw Guerrerite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Imperial_DuraSteelCrate.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.4</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\SW_Resources_Guerrerite.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Gi</IconSymbol>
+	  <MinimalPricePerUnit>35</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Beskar</SubtypeId>
+		  <!--An incredibly durable metal, resistant to Lightsabers. Used in Heavier armors-->
+		   <!--Slightly Below Average Yield-->    
+      </Id>
+      <DisplayName>Raw Beskar</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Beskar.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Beskar_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Mi</IconSymbol>
+	   <MinimalPricePerUnit>650</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+   
+   <PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Alum</SubtypeId>
+		  <!--Mineral used in the refinement of Beskar, and itself as a basic metalic ore-->
+		   <!--Slightly Below Average Yield-->    
+      </Id>
+      <DisplayName>Raw Alum</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Imperial_DuraSteelCrate.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.2</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Beskar_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Am</IconSymbol>
+	    <MinimalPricePerUnit>10</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Norax</SubtypeId>
+		  <!--Mineral used in Industrial machines-->
+		   <!--Average Yield-->    
+      </Id>
+      <DisplayName>Raw Norax</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Norax.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Norax_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Nx</IconSymbol>
+	    <MinimalPricePerUnit>15</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Cortosis</SubtypeId>
+		  <!--Lightsaber Resistant material, used in select rare applications-->
+		   <!--Low Yield-->    
+      </Id>
+      <DisplayName>Raw Cortosis</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Corrosis.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1.5</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Cortosis_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Cs</IconSymbol>
+	    <MinimalPricePerUnit>300</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Phrik</SubtypeId>
+		  <!--Near Indestructible Metal, used in small quanities in High-quality armor-->
+		   <!--Incredibly Low Yield-->    
+      </Id>
+      <DisplayName>Raw Phrik</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Phrik.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Phrik_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Pk</IconSymbol>
+	    <MinimalPricePerUnit>750</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Zersium</SubtypeId>
+		  <!--Ore used in the creation of ship as well as infantry armors, 
+		  blaster-based weaponry, having excellent thermal midigation properties-->
+		   <!-- Average Yield-->    
+      </Id>
+      <DisplayName>Raw Zersium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Zersium.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Zersium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Zum</IconSymbol>
+	   <MinimalPricePerUnit>20</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Rubindum</SubtypeId>
+		   <!--Critical Element in Hyperdrive construction-->
+		   <!--Low Yield-->     
+      </Id>
+      <DisplayName>Raw Rubindum</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Zersium.dds</Icon>
+      <Size>
+        <X>0.02</X>
+        <Y>0.02</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>0.7</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Zersium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Rub</IconSymbol>
+	    <MinimalPricePerUnit>1000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Lignan</SubtypeId>
+		   <!--Ore imbuned with the Darkside, highly effective in weapons-->
+		   <!--Incredibly Low Yield-->     
+      </Id>
+      <DisplayName>Lignan Fragments</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Zersium.dds</Icon>
+      <Size>
+        <X>0.02</X>
+        <Y>0.02</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.7</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Zersium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Ln</IconSymbol>
+	   <MinimalPricePerUnit>750</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Shraki</SubtypeId>
+		   <!--Ore imbuned with the Darkside, used in sith alchemy and advanced systems-->
+		   <!--Low Yield-->     
+      </Id>
+      <DisplayName>Raw Shraki</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Zersium.dds</Icon>
+      <Size>
+        <X>0.02</X>
+        <Y>0.02</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>7</Mass>
+      <Volume>0.7</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Zersium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Ski</IconSymbol>
+	   <MinimalPricePerUnit>85</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Zalfaric</SubtypeId>
+		   <!--Ore imbuned with the Darkside, used in life energy manipulations -->
+		   <!--Low Yield-->     
+      </Id>
+      <DisplayName>Raw Zalfaric</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Zersium.dds</Icon>
+      <Size>
+        <X>0.02</X>
+        <Y>0.02</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>7</Mass>
+      <Volume>0.7</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Zersium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Ski</IconSymbol>
+	   <MinimalPricePerUnit>85</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+   
+   
+    <!--Ingots-->    
+	
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_DuraSteel</SubtypeId>
+		 <!--Basic Metal Alloy, used for armor & standard coverings -->    
+		  <!--Average Yield-->    
+      </Id>
+      <DisplayName>Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Doonium_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Dm</IconSymbol>
+	   <MinimalPricePerUnit>50</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Lommite</SubtypeId>
+		 <!--Basic Metal Alloy, used in transparisteel -->    
+		  <!--Average Yield-->    
+      </Id>
+      <DisplayName>Lommite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Lommite.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Lommite_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Lo</IconSymbol>
+	   <MinimalPricePerUnit>75</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Carbonite</SubtypeId>
+		  <!--Storage Alloy, used in storing of goods. Perfect for long-term containment-->
+		   <!--Slightly Above Average Yield-->    
+      </Id>
+      <DisplayName>Carbonite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Carbon.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Carbonite_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Ct</IconSymbol>
+	   <MinimalPricePerUnit>100</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Cortosis</SubtypeId>
+		  <!--Lightsaber Resistant material, used in select rare applications-->
+		   <!--Low Yield-->    
+      </Id>
+      <DisplayName>Cortosis</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Corrosis.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Cortosis_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Cs</IconSymbol>
+	   <MinimalPricePerUnit>3000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Beskar</SubtypeId>
+		  <!--An incredibly durable metal, resistant to Lightsabers. Used in Heavier armors-->
+		   <!--Slightly Below Average Yield-->    
+      </Id>
+      <DisplayName>Mandolorian Iron</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Beskar.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Beskar_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Mi</IconSymbol>
+	   <MinimalPricePerUnit>5250</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Alum</SubtypeId>
+		  <!--Mineral used in the refinement of Beskar, and itself as a basic metalic ore-->
+		   <!--Slightly Below Average Yield-->    
+      </Id>
+      <DisplayName>Alum</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Imperial_DuraSteelCrate.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Alum_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Am</IconSymbol>
+	   <MinimalPricePerUnit>200</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Phrik</SubtypeId>
+		  <!--Near Indestructible Metal, used in small quanities in High-quality armor-->
+		   <!--Incredibly Low Yield-->    
+      </Id>
+      <DisplayName>Phrik</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Phrik.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Phrik_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Pk</IconSymbol>
+	   <MinimalPricePerUnit>3100</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Hollinium</SubtypeId>
+		  <!--Metalic Ore used in artifical hyperbarides, to create Turbolasers-->
+		   <!--Low Yield-->    
+      </Id>
+      <DisplayName>Hollinium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Hollinium_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Hm</IconSymbol>
+	   <MinimalPricePerUnit>6000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Advanced_Hyerbaride</SubtypeId>
+		  <!--Metalic Ore used in artifical hyperbarides, to create Turbolasers-->
+		   <!--Low Yield-->    
+      </Id>
+      <DisplayName>Hyperbaride</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Hollinium_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Hy</IconSymbol>
+	   <MinimalPricePerUnit>50000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Exonium</SubtypeId>
+		  <!--Fossil Mineral, used as in the creation of power supplies, and fuels-->
+		   <!--Low Yield-->    
+      </Id>
+      <DisplayName>Exonium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Exonium.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Exonium_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Ex</IconSymbol>
+	   <MinimalPricePerUnit>5000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Norax</SubtypeId>
+		  <!--Mineral used in Industrial machines-->
+		   <!--Average Yield-->    
+      </Id>
+      <DisplayName>Norax</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Norax.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Norax_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Nx</IconSymbol>
+	   <MinimalPricePerUnit>360</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Polymer</SubtypeId>
+		  <!--Constructed Ingots made of varied sources-->
+		   <!-- Manufactured-->    
+      </Id>
+      <DisplayName>Polymer</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Polymer.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Polymer_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Polymer</IconSymbol>
+	   <MinimalPricePerUnit>5</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_PolymerAlloy</SubtypeId>
+		  <!--Constructed Ingots made of varied sources-->
+		   <!-- Manufactured-->    
+      </Id>
+      <DisplayName>Monomorphic-Alloy</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Polymer.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1.2</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Polymer_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*PolAlloy</IconSymbol>
+	   <MinimalPricePerUnit>25</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Spin_SyntheticFuel</SubtypeId>
+		  <!--Artifically Created Cheap fuel, used to run Generators lacking proper supply chains-->
+		   <!-- Unnaturally Produced-->    
+      </Id>
+      <DisplayName>Synthetic Fuel</DisplayName>
+	   <ExtraInventoryTooltipLine>Cheap Solid-Fuel. Artifically created.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Norax.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1.5</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_SynthFuel_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*SythFuel</IconSymbol>
+	   <MinimalPricePerUnit>25</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+		<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Rubindum</SubtypeId>
+		  <!--Critical Element in Hyperdrive construction-->
+		   <!--Low Yield-->    
+      </Id>
+      <DisplayName>Rubindum</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Imperial_DuraSteelCrate.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Rubindum_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*RiDm</IconSymbol>
+	   <MinimalPricePerUnit>75000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Guerrerite</SubtypeId>
+		  <!--Orange Crystal, used in various purposes, mostly enhancement-->
+		   <!--Low Yield-->    
+      </Id>
+      <DisplayName>Guerrerite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Imperial_DuraSteelCrate.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Guerrerite_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Gi</IconSymbol>
+	   <MinimalPricePerUnit>300</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	<!--Darkside Ingots-->    
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Lignan</SubtypeId>
+		  <!--Ore imbuned with the Darkside, highly effective in weapons-->
+		   <!--Incredibly Low Yield-->    
+      </Id>
+      <DisplayName>Lignan</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Imperial_DuraSteelCrate.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Lignan_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Ln</IconSymbol>
+	   <MinimalPricePerUnit>4500</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Zersium</SubtypeId>
+		  <!--Ore used in the creation of ship as well as infantry armors, 
+		  blaster-based weaponry, having excellent thermal midigation properties-->
+		   <!-- Average Yield-->    
+      </Id>
+      <DisplayName>Zersium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Zersium.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.2</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Zersium_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Zum</IconSymbol>
+	   <MinimalPricePerUnit>115</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	<!--Particles -->
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Protons</SubtypeId>
+		 <!-- Accumulated Protons, used in high explosive proton weaponry. -->    
+		  <!-- Low Yield-->    
+      </Id>
+      <DisplayName>Stablized Proton</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Imperial_DuraSteelCrate.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Particles_Proton_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Proton</IconSymbol>
+	   <MinimalPricePerUnit>35000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Ions</SubtypeId>
+		 <!-- Accumulated Ionic particles, used in anti-shield Ion-cannon weaponry. -->    
+		  <!-- Low Yield-->    
+      </Id>
+      <DisplayName>Stablized Ionic Particles</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\Imperial_DuraSteelCrate.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Particles_Ion_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Ion</IconSymbol>
+	   <MinimalPricePerUnit>12000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<!--Solid "Gas"-->
+
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Spin_Tibanna</SubtypeId>
+				 <!--Basic "Gas" used for weaponry ammo -->    
+		  <!--Average Yield-->    
+      </Id>
+      <DisplayName>Tibanna Canisters</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Component_Tibanna.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.3</Mass>
+      <Volume>0.025</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Tibanna_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>*Tb</IconSymbol>
+	   <MinimalPricePerUnit>50</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Tibanna_Raw</SubtypeId>
+      </Id>
+      <DisplayName>Contaiminated Tibanna</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Lommite.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Imperial_Ingot_Tibanna_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Tb</IconSymbol>
+	   <MinimalPricePerUnit>3</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </PhysicalItem>
+	
+</PhysicalItems>
+</Definitions>

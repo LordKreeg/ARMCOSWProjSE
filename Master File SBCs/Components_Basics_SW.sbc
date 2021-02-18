@@ -1,0 +1,733 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+  
+   <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_DuraSteel</SubtypeId>
+      </Id>
+      <DisplayName>Durasteel Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>130</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>250</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_TranspariSteel</SubtypeId>
+      </Id>
+      <DisplayName>TranspariSteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_TransparentSteel.dds</Icon>
+	   <ExtraInventoryTooltipLine>Basic Imperial Glass. Produced by Light and Advanced Factories</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>130</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>215</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_DuraSteel_ISD</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Enhanced Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+	   <ExtraInventoryTooltipLine>Imperial Salvage Material. Recycle or Scrap.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1000</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>600</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>60</Health>
+	   <MinimalPricePerUnit>200</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_DuraSteel_Large</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Hull Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+	  <ExtraInventoryTooltipLine>Imperial Salvage Material. Recycle or Scrap.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>200</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>600</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>60</Health>
+	   <MinimalPricePerUnit>200</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Quadranium_Plate_I </SubtypeId>
+      </Id>
+      <DisplayName>Imperial Hull Quadranium</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+	  <ExtraInventoryTooltipLine>Imperial Salvage Material. Recycle or Scrap.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>200</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15000</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+      <Health>8000</Health>
+	   <MinimalPricePerUnit>200</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_DuraSteel_LargeLight</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Light-Hull Durasteel</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Salvage Material. Recycle or Scrap.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>200</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>300</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>60</Health>
+	   <MinimalPricePerUnit>115</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+  
+  
+  <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_TurboLaser_Part</SubtypeId>
+      </Id>
+      <DisplayName>Turbolaser Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>35</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Mechanism_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>560000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Blaster_Mechanism</SubtypeId>
+      </Id>
+      <DisplayName>Tibanna-Pressurization Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>545</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Maser_Mechanism</SubtypeId>
+      </Id>
+      <DisplayName>Chiss Maser Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Chiss Weaponry Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>750</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_MegaMaser_Mechanism</SubtypeId>
+      </Id>
+      <DisplayName>Chiss MegaMaser Mechanisim</DisplayName>
+	  <ExtraInventoryTooltipLine>Chiss Weaponry Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>50</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>750</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_TurboLaser_PartII</SubtypeId>
+      </Id>
+      <DisplayName>Turbolaser Power Converter</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>65</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_TurboLaser_Battery_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>850000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+  
+   <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_PowerConverter</SubtypeId>
+      </Id>
+      <DisplayName>Power Converter</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerConverter.dds</Icon>
+	   <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerConverter_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>450</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_StandardCabling</SubtypeId>
+      </Id>
+      <DisplayName>Standard Conduit Line</DisplayName>
+	   <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_Conduits.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_Conduits_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>245</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_StandardPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Standard Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>350</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_AlternatePowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Nox Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>350</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_HeavyDutyCabling</SubtypeId>
+      </Id>
+      <DisplayName>Heavy-Duty Conduit Line</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_HeavyConduit.dds</Icon>
+	  <ExtraInventoryTooltipLine>Imperial Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_HeavyConduit_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>2400</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_FissionComponent</SubtypeId>
+      </Id>
+      <DisplayName>Fission-Reactor Components</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+	   <MinimalPricePerUnit>35000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_IonWingCircuitry</SubtypeId>
+      </Id>
+      <DisplayName>Ion Collection Circuitry</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Components\SolarCell.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+      <Health>11</Health>
+	   <MinimalPricePerUnit>1000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_SolarCircuitry</SubtypeId>
+      </Id>
+      <DisplayName>Solar Circuitry</DisplayName>
+      <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+	  <ExtraInventoryTooltipLine>Starwars Basic Component. Produced by Light Factory, Micro Factory for Imperials.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Components\SolarCell.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>
+      <DropProbability>0.1</DropProbability>
+      <Health>11</Health>
+	   <MinimalPricePerUnit>115</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_CommunicationsEquipment</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Communication Equipment</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>8</Mass>
+      <Volume>70</Volume>
+      <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+	   <MinimalPricePerUnit>525</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Reactors_Ionic</SubtypeId>
+      </Id>
+      <DisplayName>Ion-Reactor Components</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+	   <MinimalPricePerUnit>50000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_PowerGen_Basics</SubtypeId>
+      </Id>
+      <DisplayName>Power Generator Components</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Power-Generation Component. Produced by Basic Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+	   <MinimalPricePerUnit>65</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_ThrusterParts_Ion</SubtypeId>
+      </Id>
+      <DisplayName>Ion-Thruster Components</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>5</Volume>
+      <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+	   <MinimalPricePerUnit>6000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_ThrusterParts_Repulsor</SubtypeId>
+      </Id>
+      <DisplayName>Repulsor Components</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>25</Volume>
+      <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>20</Health>
+	   <MinimalPricePerUnit>600</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_FissionAdvancedController</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Fission-Reaction Controller</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\K_Imperial_Components_Fission_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>5</Health>
+	   <MinimalPricePerUnit>65000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_IonCapacitor</SubtypeId>
+      </Id>
+      <DisplayName>Ionic-Capacitor</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Advanced Component. Produced by Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>40</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_Box_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>40</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>40</Health>
+	   <MinimalPricePerUnit>25000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_ProductionControlUnit_Empire</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Production-Control Unit</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Production Component. Produced by Light Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>25</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_ProductionControl_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>40</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>900000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_ImperialConstruction</SubtypeId>
+      </Id>
+      <DisplayName>General Mechanical Supplies</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_Supplies.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Supplies_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>3</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>3</Health>
+	   <MinimalPricePerUnit>110</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_ImperialGeneralParts</SubtypeId>
+      </Id>
+      <DisplayName>General Tube-Assembly Parts</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_Supplies.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Box_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>15</Health>
+	   <MinimalPricePerUnit>110</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_LightweightDurasteel</SubtypeId>
+      </Id>
+      <DisplayName>Light-Weight Durasteel</DisplayName>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_LWDuraSteel.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>80</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>35</Health>
+	   <MinimalPricePerUnit>35</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+  
+  </Components>
+</Definitions>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Blueprints>
+
+<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_MineralConversion_Doomium</SubtypeId>
+      </Id>
+      <DisplayName>Carbonite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Carbon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="0.02" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      <BaseProductionTimeInSeconds>240</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_MineralConversion_DoomiumL</SubtypeId>
+      </Id>
+      <DisplayName>Doomium Large Drill</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Carbon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+</Blueprints>
+
+<BlueprintClasses>
+  
+  <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_UniversalSW_MineralConversion_Mining</SubtypeId>
+      </Id>
+      <DisplayName>Mining Conversion</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+	
+	 <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>K_UniversalSW_MineralConversion_MiningLarge</SubtypeId>
+      </Id>
+      <DisplayName>Mining Conversion</DisplayName>
+      <Icon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\Production\SW_ProductionTabs_Parts.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+	
+	 
+</BlueprintClasses>
+	
+ <BlueprintClassEntries>	
+ 
+ <!--AntiError-->
+  <Entry Class="K_UniversalSW_MineralConversion_Mining" BlueprintSubtypeId="K_Imperial_MineralConversion_Doomium" />
+   <Entry Class="K_UniversalSW_MineralConversion_MiningLarge" BlueprintSubtypeId="K_Imperial_MineralConversion_Carbonite" />
+
+ 
+</BlueprintClassEntries>
+
+</Definitions>

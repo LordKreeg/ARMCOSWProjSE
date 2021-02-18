@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Blueprints>
+
+<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_Carbonite</SubtypeId>
+      </Id>
+      <DisplayName>Carbonite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Carbon.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_DuraSteel</SubtypeId>
+      </Id>
+      <DisplayName>Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_Alum</SubtypeId>
+      </Id>
+      <DisplayName>Alum</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="21" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Alum" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_Lommite</SubtypeId>
+      </Id>
+      <DisplayName>Lommite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Lommite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_Norax</SubtypeId>
+      </Id>
+      <DisplayName>Norax</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Norax.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_Guerrerite</SubtypeId>
+      </Id>
+      <DisplayName>Guerrerite</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Guerrerite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Gold" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Guerrerite" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_Exonium</SubtypeId>
+      </Id>
+      <DisplayName>Exonium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Exonium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Uranium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_Hollinium</SubtypeId>
+      </Id>
+      <DisplayName>Hollinium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="25" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Hollinium" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_Tibanna</SubtypeId>
+      </Id>
+      <DisplayName>Tibanna</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Component_Tibanna.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Spin_Tibanna" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_MasterFile_StoneRefinement</SubtypeId>
+      </Id>
+      <DisplayName>Produce Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="500" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+             </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+   
+   <!--Basic Resources-->
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_DuraSteel_Standard</SubtypeId>
+      </Id>
+      <DisplayName>Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_MandolorianIron_Standard</SubtypeId>
+      </Id>
+      <DisplayName>Mandolorian Iron</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Beskar" />
+		 <Item Amount="5" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Alum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Beskar" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Cortosis_Standard</SubtypeId>
+      </Id>
+      <DisplayName>Cortosis</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Cortosis" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Cortosis" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Carbonite_Standard</SubtypeId>
+      </Id>
+      <DisplayName>Carbonite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic_Phrik_Standard</SubtypeId>
+      </Id>
+      <DisplayName>Phrik</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="200" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Phrik" />
+      </Prerequisites>
+      <Result Amount="0.1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Phrik" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic__Metal_Alum</SubtypeId>
+      </Id>
+      <DisplayName>Alum</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Alum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Alum" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic__Metal_Exonium</SubtypeId>
+      </Id>
+      <DisplayName>Exonium</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic__Metal_Norax</SubtypeId>
+      </Id>
+      <DisplayName>Norax</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic__Metal_Lommite</SubtypeId>
+      </Id>
+      <DisplayName>Lommite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="35" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic__Crystal_Guerrerite</SubtypeId>
+      </Id>
+      <DisplayName>Guerrerite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="45" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Guerrerite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Guerrerite" />
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Advanced_Hollinium</SubtypeId>
+      </Id>
+      <DisplayName>Hollinium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="35" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Hollinium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Hollinium" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Advanced_Crystals_Rubindum</SubtypeId>
+      </Id>
+      <DisplayName>Rubindum</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Rubindum" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Rubindum" />
+      <BaseProductionTimeInSeconds>45</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Basic__Metal_Zersium</SubtypeId>
+      </Id>
+      <DisplayName>Zersium</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ore" SubtypeId="K_Imperial_Resources_Basic_Zersium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Zersium" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+<!-- Polymer -->	
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Polymer_Production</SubtypeId>
+      </Id>
+      <DisplayName>Polymer</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Polymer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      <BaseProductionTimeInSeconds>0.25</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Polymer_Production_Gravel</SubtypeId>
+      </Id>
+      <DisplayName>Polymer</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Polymer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="Stone" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      <BaseProductionTimeInSeconds>0.25</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<!--AdvancedProducts-->
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Production_Advanced_Hyperbaride</SubtypeId>
+      </Id>
+      <DisplayName>Hyperbaride(5)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Hollinium" />
+		<Item Amount="0.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Guerrerite" />
+		<Item Amount="4" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Advanced_Hyerbaride" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_PolymerAlloy_Production</SubtypeId>
+      </Id>
+      <DisplayName>Monomorphic-Alloy</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Polymer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		  <Item Amount="0.25" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_PolymerAlloy" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+		<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Production_AdvancedConversion_Zersium</SubtypeId>
+      </Id>
+      <DisplayName>Artifical Zersium</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.05" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Phrik" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Guerrerite" />
+		<Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Zersium" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_SynthFuel</SubtypeId>
+      </Id>
+      <DisplayName>Synthetic Fuel</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Polymer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+		  <Item Amount="0.45" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Spin_SyntheticFuel" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Conversion_SynthFuelBulk</SubtypeId>
+      </Id>
+      <DisplayName>Synthetic Fuel (Bulk)</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Polymer.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+		  <Item Amount="2.25" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Spin_SyntheticFuel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Production_Advanced_Protons</SubtypeId>
+      </Id>
+      <DisplayName>Stabilized Proton</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Spin_Tibanna" />
+		 <Item Amount="0.1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Hollinium" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Protons" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Resources_Production_Advanced_Ions</SubtypeId>
+      </Id>
+      <DisplayName>Stablized Ionic Particles</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Hollinium.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Spin_Tibanna" />
+		 <Item Amount="0.1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Hollinium" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Ions" />
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+</Blueprints>
+</Definitions>

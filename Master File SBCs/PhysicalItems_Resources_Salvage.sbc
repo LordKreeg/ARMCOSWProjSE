@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<PhysicalItems>
+   
+   
+   
+   <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Neutral_RecycledMetal</SubtypeId>
+      </Id>
+      <DisplayName>Metalic Salvage</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Resource_SalvageMetal_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Metals</IconSymbol>
+	   <MinimalPricePerUnit>3000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Neutral_RecycledTech</SubtypeId>
+      </Id>
+      <DisplayName>Technological Salvage</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Resource_SalvageTech_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Tech</IconSymbol>
+	   <MinimalPricePerUnit>5000</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Neutral_RecycledChemicals</SubtypeId>
+      </Id>
+      <DisplayName>Chemical Salvage</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Resource_SalvageChemicals_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Chemical</IconSymbol>
+	   <MinimalPricePerUnit>6250</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	<PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Neutral_SithKnowledgeFragments</SubtypeId>
+      </Id>
+      <DisplayName>Darkside Fragmented Relics</DisplayName>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.1</Volume>
+      <Model>Models\Resources\K_Resource_SalvageDarksideFragments_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Darkside</IconSymbol>
+	   <MinimalPricePerUnit>300</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+</PhysicalItems>
+</Definitions>

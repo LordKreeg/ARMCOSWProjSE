@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Blueprints>
+   
+   <!--
+   K_Neutral_RecycledMetal
+   K_Neutral_RecycledTech
+   K_Neutral_RecycledChemicals
+   -->
+  <!--
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel_Large" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+  -->
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__LargeDurasteel</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel_Large" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__LargeLightDurasteel</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel_LargeLight" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__DurasteelImperial</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="0.025" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__LightWeightDurasteel</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Imperial_LWDurasteel_Production" />
+      </Prerequisites>
+      <Result Amount="0.2" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpGenParts</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_ImperialGeneralParts" />
+      </Prerequisites>
+      <Result Amount="0.2" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpRepulsor</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_ThrusterParts_Repulsor" />
+      </Prerequisites>
+      <Result Amount="0.6" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpGlass</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_TranspariSteel" />
+      </Prerequisites>
+      <Result Amount="0.05" TypeId="Ingot" SubtypeId="K_Neutral_RecycledChemicals" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpCons</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_ImperialConstruction" />
+      </Prerequisites>
+      <Result Amount="0.2" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpComms</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_CommunicationsEquipment" />
+      </Prerequisites>
+      <Result Amount="0.3" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpProdCont</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_ProductionControlUnit_Empire" />
+      </Prerequisites>
+      <Result Amount="0.3" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpIonWing</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_IonWingCircuitry" />
+      </Prerequisites>
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpPowerCon</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_PowerConverter" />
+      </Prerequisites>
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpIonThrust</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_ThrusterParts_Ion" />
+      </Prerequisites>
+      <Result Amount="0.3" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpIonReac</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_Reactors_Ionic" />
+      </Prerequisites>
+      <Result Amount="0.3" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_StandardPowerCell" />
+      </Prerequisites>
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpGenBasic</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_PowerGen_Basics" />
+      </Prerequisites>
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpBlasterMec</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_Blaster_Mechanism" />
+      </Prerequisites>
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpTurboII</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_TurboLaser_PartII" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpTurboI</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_TurboLaser_Part" />
+      </Prerequisites>
+      <Result Amount="0.5" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpIonCap</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_IonCapacitor" />
+      </Prerequisites>
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpFissionCore</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_FissionComponent" />
+      </Prerequisites>
+      <Result Amount="0.3" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpFissionContr</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_FissionAdvancedController" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpStanCable</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_StandardCabling" />
+      </Prerequisites>
+      <Result Amount="0.01" TypeId="Ingot" SubtypeId="K_Neutral_RecycledChemicals" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Rebellion_Salvage_Process__ImpHeavCable</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_HeavyDutyCabling" />
+      </Prerequisites>
+      <Result Amount="0.03" TypeId="Ingot" SubtypeId="K_Neutral_RecycledChemicals" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	
+	
+</Blueprints>
+</Definitions>

@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Blueprints>
+   
+   <!--Basic Resources-->
+  
+  
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Durasteel_Production</SubtypeId>
+      </Id>
+      <DisplayName>Durasteel Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Repulsor_Production</SubtypeId>
+      </Id>
+      <DisplayName>Repulsor Components</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		 <Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		  <Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_ThrusterParts_Repulsor" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_TranspariSteel_Production</SubtypeId>
+      </Id>
+      <DisplayName>TranspariSteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_TransparentSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_TranspariSteel" />
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_LWDurasteel_Production</SubtypeId>
+      </Id>
+      <DisplayName>Light-Weight Durasteel (2)</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_LWDuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="2" TypeId="Component" SubtypeId="K_Components_LightweightDurasteel" />
+      <BaseProductionTimeInSeconds>0.75</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_GeneralParts_Production</SubtypeId>
+      </Id>
+      <DisplayName>General Tube-Assembly Parts</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_Supplies.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_ImperialGeneralParts" />
+      <BaseProductionTimeInSeconds>1.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Construction_Production</SubtypeId>
+      </Id>
+      <DisplayName>General Mechanical Supplies(3)</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_Supplies.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      </Prerequisites>
+      <Result Amount="3" TypeId="Component" SubtypeId="K_Components_ImperialConstruction" />
+      <BaseProductionTimeInSeconds>1.65</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Computer</SubtypeId>
+      </Id>
+      <DisplayName>Computer (Identical)</DisplayName>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.02" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+        <Item Amount="0.02" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <IsPrimary>false</IsPrimary>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_PowerConverter_Production</SubtypeId>
+      </Id>
+      <DisplayName>Power Converter</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerConverter.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="4" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Guerrerite" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_PowerConverter" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_StandardPowerCell_Production</SubtypeId>
+      </Id>
+      <DisplayName>Standard Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="1.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_StandardPowerCell" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_AlternatePowerCell_Production</SubtypeId>
+      </Id>
+      <DisplayName>Nox Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_AlternatePowerCell" />
+      <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_StandardCabling_Production</SubtypeId>
+      </Id>
+      <DisplayName>Standard Conduit Line</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_Conduits.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_StandardCabling" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_HeavyDutyCabling_Production</SubtypeId>
+      </Id>
+      <DisplayName>Heavy-Duty Conduit Line</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_HeavyConduit.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		 <Item Amount="1.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="7" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_HeavyDutyCabling" />
+      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_PowerGen_Basics_Production</SubtypeId>
+      </Id>
+      <DisplayName>Power Generator Components</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1.25" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_PowerGen_Basics" />
+      <BaseProductionTimeInSeconds>13</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_FissionComponent_Production</SubtypeId>
+      </Id>
+      <DisplayName>Fission-Reactor Components</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_FissionComponent" />
+      <BaseProductionTimeInSeconds>9</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_FissionAdvancedController_Production</SubtypeId>
+      </Id>
+      <DisplayName>Advanced Fission-Reaction Controller</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="15" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="7" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Guerrerite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_FissionAdvancedController" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_BlasterMechanism_Production</SubtypeId>
+      </Id>
+      <DisplayName>Tibanna-Pressurization Mechanisim</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="1.2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_Blaster_Mechanism" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_MaserMechanism_Production</SubtypeId>
+      </Id>
+      <DisplayName>Chiss Maser Mechanisim</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="7" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="1.2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_Maser_Mechanism" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_MegaMaserMechanism_Production</SubtypeId>
+      </Id>
+      <DisplayName>Chiss MegaMaser Mechanisim</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="15" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="15" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Advanced_Hyerbaride" />
+		<Item Amount="15" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="10" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_MegaMaser_Mechanism" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_IonCapacitor_Production</SubtypeId>
+      </Id>
+      <DisplayName>Ionic-Capacitor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+		<Item Amount="0.7" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_IonCapacitor" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_CommunicationsEquipment_Production</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Communication Equipment</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="7" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="4" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+	      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_CommunicationsEquipment" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_IonWingCircuitry_Production</SubtypeId>
+      </Id>
+      <DisplayName>Ion Collection Circuitry</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_IonWingCircuitry" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_ThrusterParts_Ion_Production</SubtypeId>
+      </Id>
+      <DisplayName>Ion-Thruster Components</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+		<Item Amount="0.6" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Ions" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_ThrusterParts_Ion" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Solar_Production</SubtypeId>
+      </Id>
+      <DisplayName>Solar Circuitry</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+        <Item Amount="0.6" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_SolarCircuitry" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_Reactors_Ionic_Production</SubtypeId>
+      </Id>
+      <DisplayName>Ion-Reactor Components</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+	   <Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="1.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Lommite" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Ions" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_Reactors_Ionic" />
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_ProductionControlUnit_Production</SubtypeId>
+      </Id>
+      <DisplayName>Imperial Production-Control Unit</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+		<Item Amount="3.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Norax" />
+		<Item Amount="3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Guerrerite" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_ProductionControlUnit_Empire" />
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_TurboLaserPowerConverter_Production</SubtypeId>
+      </Id>
+      <DisplayName>Turbolaser Power Converter</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="7.2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="0.7" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Advanced_Hyerbaride" />
+		<Item Amount="2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+		<Item Amount="0.7" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_TurboLaser_PartII" />
+      <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Imperial_TurboLaserMech_Production</SubtypeId>
+      </Id>
+      <DisplayName>Turbolaser Mechanisim</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="15" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+		<Item Amount="0.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+		<Item Amount="0.2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Advanced_Hyerbaride" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Carbonite" />
+		<Item Amount="4" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Polymer" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_TurboLaser_Part" />
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+	
+	 <!--AntiError-->
+  
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_AntiError_I</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="666" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel_ISD" />
+      <BaseProductionTimeInSeconds>666</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_AntiError_II</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="666" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel_Large" />
+      <BaseProductionTimeInSeconds>666</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_AntiError_III</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="666" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_Sith_Durasteel" />
+      <BaseProductionTimeInSeconds>666</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_AntiError_IV</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="666" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel_Large" />
+      <BaseProductionTimeInSeconds>666</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_AntiError_V</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="666" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_Sith_BlasterMechanism" />
+      <BaseProductionTimeInSeconds>666</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_AntiError_VI</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="666" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_Sith_PowerConvertor" />
+      <BaseProductionTimeInSeconds>666</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_AntiError_VII</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="666" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_Sith_Cabling" />
+      <BaseProductionTimeInSeconds>666</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_AntiError_VIII</SubtypeId>
+      </Id>
+      <DisplayName>Anti-Error</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="666" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_Sith_PowerCell" />
+      <BaseProductionTimeInSeconds>666</BaseProductionTimeInSeconds>
+    </Blueprint>
+  
+  
+</Blueprints>
+</Definitions>

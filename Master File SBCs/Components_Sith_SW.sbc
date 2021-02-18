@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+  
+   <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_Durasteel</SubtypeId>
+      </Id>
+      <DisplayName>Zersium-Treated Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>130</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>60</Health>
+	   <MinimalPricePerUnit>2400</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_LightDurasteel</SubtypeId>
+      </Id>
+      <DisplayName>Zersium-Alloy Light-Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>15</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>90</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>60</Health>
+	   <MinimalPricePerUnit>2400</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_Durasteel_ShipHull</SubtypeId>
+      </Id>
+      <DisplayName>Zersium-Treated Durasteel Hull Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1000</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>60</Health>
+	   <MinimalPricePerUnit>1000</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_Transparisteel</SubtypeId>
+      </Id>
+      <DisplayName>Zersium-Treated TranspariSteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>2400</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	 
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_BlasterMechanism</SubtypeId>
+      </Id>
+      <DisplayName>Lignan-Encased Weapon-Mechanisim</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>650</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_PulseMechanism</SubtypeId>
+      </Id>
+      <DisplayName>Lignan-Pulser-Array</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>650</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_ElectroCannonMechanism</SubtypeId>
+      </Id>
+      <DisplayName>Electromagnetic-Array</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>650</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_RepeaterMechanism</SubtypeId>
+      </Id>
+      <DisplayName>Lignan-Repeater-Array</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>650</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_IonMechanism</SubtypeId>
+      </Id>
+      <DisplayName>Ion-Pulser-Array</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>650</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_Construction</SubtypeId>
+      </Id>
+      <DisplayName>Zersium-Alloy Construction Components</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>60</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_AlloyReinforcement</SubtypeId>
+      </Id>
+      <DisplayName>Zersium-Alloy Reinforcement</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>60</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>35</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+  
+   <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_PowerConvertor</SubtypeId>
+      </Id>
+      <DisplayName>Enhanced Flow-Converter</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>6</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerComverter_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>1200</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_Cabling</SubtypeId>
+      </Id>
+      <DisplayName>Reinforced Crystalite Conduits</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerComverter_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>2400</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_PowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Alchematic Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerComverter_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>3600</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_PowerCellII</SubtypeId>
+      </Id>
+      <DisplayName>Crystalite Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerComverter_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>3600</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components_Sith_GeneratorParts</SubtypeId>
+      </Id>
+      <DisplayName>Celluar Generator Parts</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerComverter_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>3600</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+  
+  </Components>
+</Definitions>

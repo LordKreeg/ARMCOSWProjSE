@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<PhysicalItems>
+   
+   
+   
+  <PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>K_Imperial_Resources_Organics_Bioplasma</SubtypeId>
+      </Id>
+      <DisplayName>Raw Bioplasma</DisplayName>
+	   <ExtraInventoryTooltipLine>Organic Material, processable as Bio-Fuel, or in select machines for Refinement</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.001</Mass>
+      <Volume>0.02</Volume>
+      <Model>Models\Resources\K_Imperial_Ore_Doonium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Bio</IconSymbol>
+<MinimalPricePerUnit>2</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	
+	 <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Tokens_Slave</SubtypeId>
+      </Id>
+      <DisplayName>Slave Token</DisplayName>
+	   <ExtraInventoryTooltipLine>Electronic Chip presenting ownership of a quanity of Slaves in the Galaxy.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.001</Mass>
+      <Volume>0.02</Volume>
+      <Model>Models\Resources\K_Imperial_Ore_Doonium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Token</IconSymbol>
+<MinimalPricePerUnit>2000</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+	
+	 <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Tokens_Carta</SubtypeId>
+      </Id>
+      <DisplayName>Carta Token</DisplayName>
+	   <ExtraInventoryTooltipLine>Electronic Chip representing value to the Carta.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.001</Mass>
+      <Volume>0.02</Volume>
+      <Model>Models\Resources\K_Imperial_Ore_Doonium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Token</IconSymbol>
+<MinimalPricePerUnit>2000</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </PhysicalItem>
+	
+	
+ <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>K_Imperial_Resources_Tokens_KKED</SubtypeId>
+      </Id>
+      <DisplayName>KKED Token</DisplayName>
+	   <ExtraInventoryTooltipLine>Electronic Chip representing value to the KKED Group.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Resources\SW_Resources_Dooninum.dds</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.01</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.001</Mass>
+      <Volume>0.02</Volume>
+      <Model>Models\Resources\K_Imperial_Ore_Doonium_Small.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>*Token</IconSymbol>
+<MinimalPricePerUnit>2000</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </PhysicalItem>	
+	
+</PhysicalItems>
+</Definitions>

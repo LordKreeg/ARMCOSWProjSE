@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+  
+   <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Rebellion_Components_DuraSteel</SubtypeId>
+      </Id>
+      <DisplayName>Durasteel (Rebellion)</DisplayName>
+	   <ExtraInventoryTooltipLine>Rebellion Basic Component. Requires a proper Rebellion machinist.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel_Rebellion.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>20</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>130</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>245</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Rebellion_Components_DuraSteelLight</SubtypeId>
+      </Id>
+      <DisplayName>Patchwork Durasteel (Rebellion)</DisplayName>
+	   <ExtraInventoryTooltipLine>Rebellion Basic Component. Cheaply produced by most rebellion suppliers.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel_Rebellion.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>5</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>75</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>195</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Rebellion_Components_DuraSteel_Large</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Hull Durasteel</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel_Rebellion.dds</Icon>
+	   <ExtraInventoryTooltipLine>Rebellion Large-Ship Component.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>200</Mass>
+      <Volume>3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>600</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>60</Health>
+	   <MinimalPricePerUnit>200</MinimalPricePerUnit>
+<CanPlayerOrder>false</CanPlayerOrder>
+    </Component>
+	
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Rebellion_Components_TranspariSteel</SubtypeId>
+      </Id>
+      <DisplayName>Salvaged TranspariSteel</DisplayName>
+	   <ExtraInventoryTooltipLine>Rebellion Basic Component.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_TransparentSteel.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>10</Mass>
+      <Volume>2</Volume>
+      <Model>Models\Components\K_Imperial_Components_Crate_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>130</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>50</Health>
+	   <MinimalPricePerUnit>225</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Rebellion_Components_Blaster_Mechanism</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Weaponry Components</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_WeaponParts.dds</Icon>
+	   <ExtraInventoryTooltipLine>Rebellion Basic Component. Built by Outfitters and other suppliers.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>3</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_WeaponCapacitor_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>25</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>25</Health>
+	   <MinimalPricePerUnit>225</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Rebellion_Components_Construction</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Supplies</DisplayName>
+	  <ExtraInventoryTooltipLine>Rebellion Basic Component.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_Supplies.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Supplies_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>3</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>3</Health>
+	   <MinimalPricePerUnit>110</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components__Rebellion_StandardPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>Homemade Power Cell</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>2</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>210</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components__Rebellion_GeneratorGear</SubtypeId>
+      </Id>
+      <DisplayName>Salvaged Generator Parts</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>45</Mass>
+      <Volume>6</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>415</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components__Rebellion_Astromech</SubtypeId>
+      </Id>
+      <DisplayName>Astromech</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+	  <ExtraInventoryTooltipLine>Typically Rebellion Asset. Imported and built by Outfitters.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>65</Mass>
+      <Volume>12</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>200</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>200</Health>
+	   <MinimalPricePerUnit>415</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Rebellion_Components_Hyperdrive_1</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Hyperdrive Components</DisplayName>
+	  <ExtraInventoryTooltipLine>Rebellion Basic Component.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_Supplies.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>4</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Supplies_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>3</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>3</Health>
+	   <MinimalPricePerUnit>420</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	 <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Rebellion_Components_UpgradeModule_1</SubtypeId>
+      </Id>
+      <DisplayName>Rebellion Enhancement Kit</DisplayName>
+	  <ExtraInventoryTooltipLine>Rebellion Basic Component.</ExtraInventoryTooltipLine>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_Supplies.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Components\K_Imperial_Components_Supplies_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>3</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>3</Health>
+	   <MinimalPricePerUnit>145</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+	
+	<Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>K_Components__Rebellion_ThrusterSmall</SubtypeId>
+      </Id>
+      <DisplayName>Makeshift Thruster Components</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_PowerCells.dds</Icon>
+	  <ExtraInventoryTooltipLine>Imperial Basic Component. Produced by Light Factory, Micro, Advanced Factory.</ExtraInventoryTooltipLine>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>45</Mass>
+      <Volume>6</Volume>
+      <Model>Models\Components\K_Imperial_Components_PowerCell_Small.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <Health>10</Health>
+	   <MinimalPricePerUnit>415</MinimalPricePerUnit>
+<CanPlayerOrder>true</CanPlayerOrder>
+    </Component>
+  
+  </Components>
+</Definitions>

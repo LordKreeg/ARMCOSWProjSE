@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Blueprints>
+   
+   <!--Basic Resources-->
+  
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ScrapMarket_Coin_Tech</SubtypeId>
+      </Id>
+      <DisplayName>Trade Technology</DisplayName>
+     <Icon>Textures\GUI\Icons\Production\K_SW_Production_MarketCoin_Inactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="K_Neutral_RecycledTech" />
+      </Prerequisites>
+      <Result Amount="650" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ScrapMarket_Coin_Metal</SubtypeId>
+      </Id>
+      <DisplayName>Trade Metals</DisplayName>
+     <Icon>Textures\GUI\Icons\Production\K_SW_Production_MarketCoin_Inactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="K_Neutral_RecycledMetal" />
+      </Prerequisites>
+      <Result Amount="25" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_ScrapMarket_Coin_Chem</SubtypeId>
+      </Id>
+      <DisplayName>Trade Chemicals</DisplayName>
+    <Icon>Textures\GUI\Icons\Production\K_SW_Production_MarketCoin_Inactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="5" TypeId="Ingot" SubtypeId="K_Neutral_RecycledChemicals" />
+      </Prerequisites>
+      <Result Amount="245" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_BlackMarket_Coin_Masser</SubtypeId>
+      </Id>
+      <DisplayName>Trade Masser</DisplayName>
+     <Icon>Textures\GUI\Icons\Production\K_SW_Production_MarketCoin_Inactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="650" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="K_Components_Maser_Mechanism" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_BlackMarket_Coin_Fuel</SubtypeId>
+      </Id>
+      <DisplayName>Trade Synth Fuel</DisplayName>
+     <Icon>Textures\GUI\Icons\Production\K_SW_Production_MarketCoin_Inactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="45" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="0.25" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Spin_SyntheticFuel" />
+      <BaseProductionTimeInSeconds>90</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_BlackMarket_Coin_Tibanna</SubtypeId>
+      </Id>
+      <DisplayName>Trade Tibanna</DisplayName>
+     <Icon>Textures\GUI\Icons\Production\K_SW_Production_MarketCoin_Inactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="90" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="0.3" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Spin_Tibanna" />
+      <BaseProductionTimeInSeconds>90</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_BlackMarket_Coin_Rubindum</SubtypeId>
+      </Id>
+      <DisplayName>Trade Rubindum</DisplayName>
+     <Icon>Textures\GUI\Icons\Production\K_SW_Production_MarketCoin_Inactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2500" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="0.45" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Rubindum" />
+      <BaseProductionTimeInSeconds>90</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_BlackMarket_Coin_Exonium</SubtypeId>
+      </Id>
+      <DisplayName>Trade Exonium</DisplayName>
+     <Icon>Textures\GUI\Icons\Production\K_SW_Production_MarketCoin_Inactive.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2000" TypeId="PhysicalObject" SubtypeId="SpaceCredit" />
+      </Prerequisites>
+      <Result Amount="0.2" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_Exonium" />
+      <BaseProductionTimeInSeconds>90</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Salvage_HullImperial</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel_Large" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>K_Salvage_HullImperialLight</SubtypeId>
+      </Id>
+      <DisplayName>Automated Process</DisplayName>
+      <Icon>Textures\GUI\Icons\Components\SW_Component_DuraSteel.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="K_Components_DuraSteel_LargeLight" />
+      </Prerequisites>
+      <Result Amount="0.5" TypeId="Ingot" SubtypeId="K_Imperial_Resources_Basic_DuraSteel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	
+	
+</Blueprints>
+</Definitions>
